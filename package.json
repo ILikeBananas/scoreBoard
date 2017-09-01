@@ -1,0 +1,24 @@
+{
+  "name": "scoreboard",
+  "version": "0.1.0",
+  "description": "a little scoreboard",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ILikeBananas/scoreBoard.git"
+  },
+  "author": "hofmjon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ILikeBananas/scoreBoard/issues"
+  },
+  "homepage": "https://github.com/ILikeBananas/scoreBoard#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "jsonfile": "^3.0.1",
+    "pug": "^2.0.0-rc.3"
+  }
+}

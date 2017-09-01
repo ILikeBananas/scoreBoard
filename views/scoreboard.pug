@@ -1,0 +1,14 @@
+html
+  head
+    title Scoreboard
+  header
+    h1 Scoreboard
+  body
+    table
+      tr
+        th Name
+        th score
+      each score in scores
+        tr
+          td #{score.name}
+          td #{score.score}
